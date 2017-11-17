@@ -1,0 +1,38 @@
+<!-- <{{PageElement}}>
+{{Content}}
+</{{PageElement}} -->
+
+<!-- <div [innerHTML]="PageElement">
+</div> -->
+<body class="LoginPage">
+<div class="body">
+<div class="main">
+
+<div class="login_content">
+  
+  <div class="content">
+   
+  <div class="loginbox">
+      <h1 id="h1Login">Zaloguj się</h1>
+<div class="userInput" style="padding-bottom: 13px;">
+  <input type="text" class="form-control" id="name" [(ngModel)] = "UserName" Style="margin-top: 2px;" CssClass="logininput"/>
+</div>
+<div class="userInput" style="padding-bottom: 13px;">
+  <input type="text" class="form-control" CssClass="logininput" id="name" [(ngModel)] = "UserPassword" Style="margin-top: 2px;" CssClass="logininput"/>
+</div>
+<div class="LoginInput">
+    <div colspan="2" align="center">
+    <div>
+<button type="button" class="btn btn-default" (click)="LogIn()">Zaloguj</button>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+</body>
+

@@ -1,0 +1,447 @@
+body 
+{
+    background-color: #3e7c8c;
+    margin:0px;
+    font-family: Segoe UI;
+}
+.my-container{
+    background-color: #3e7c8c;
+ }
+/*------------------------------------------------------------------HEADER-----------------------------------------------------------------------*/
+#MC_pnlError
+{
+    position:relative;
+}
+
+div.content 
+{
+    float: right;
+    margin-bottom: 100px;
+    margin-right: 140px;
+    margin-top: 100px;
+    padding-bottom: 3px;
+    text-align: left;
+    width: 840px;
+    position: relative;
+}
+
+body.LoginPage .loginbox div.important 
+{
+    background-color: #c21313;
+    background-image: url("../Images/Layout/Logon/error_logon.png");
+    background-repeat:no-repeat;
+    background-position: 90px 90px;
+    border: 1px solid #861010;
+    color: white;
+    font-family: Segoe UI;
+    font-size: 13px;
+    font-weight: normal;
+    height: 100px;
+    left: 320px;
+    bottom: -117px;
+    padding: 10px;
+    position: absolute;
+    width: 100px;
+}
+
+div#main 
+{
+    border-bottom: none;
+    margin-top:0px !important;
+    position:relative;
+    height: 109px;
+}
+
+div.topMenuMain 
+{
+    height: 335px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    background-image: url("../Images/Layout/Logon/loggse_logon.png");
+    background-repeat:no-repeat;
+    background-position:top left;
+    background-color:transparent;
+    z-index: -1;
+}
+
+body.LoginPage .topmenuVersion 
+{
+    color: white !important;
+    padding: 60px 0 0 110px;
+    text-decoration: none !important;
+    font-family: Segoe UI;
+}
+
+body.LoginPage .logins 
+{
+    background: url("../Images/Layout/Logon/logogsenterprise_logon.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 101px;
+    width: 100%;
+    margin-top:8px;
+}
+/*------------------------------------------------------------------HEADER-end-------------------------------------------------------------------*/
+/*------------------------------------------------------------------LOGIN------------------------------------------------------------------------*/
+body.LoginPage .loginbox h1,
+body.LoginPage.Logout .loginbox h1
+{
+    color: #61909C;
+    display: inline;
+    font-family: Segoe UI ;
+    font-size: 27px;
+    font-weight: normal;
+    margin-right: 20px;
+    padding: 0;
+    text-align: left;
+    float:none;
+}
+
+body.LoginPage .loginbox,
+body.LoginPage.Logout .loginbox
+{
+    float: left;
+    margin-left: 6px;
+}
+
+body.Logout .loginbox p 
+{
+    float: right;
+    padding-left: 0px;
+    padding-top:25px;
+}
+body.Logout .loginbox p a,
+body.Logout .loginbox p a:visited
+{
+    color: #61909C;
+}
+
+body.Logout .loginbox p a:hover
+{
+    color: red;
+}
+
+body.Logout .loginbox h1, 
+body.Logout .loginbox p 
+{
+    display: block;
+    line-height: 19px;
+    margin-right: 0;
+    max-width: 224px;
+}
+
+body.LoginPage .loginbox label, 
+body.LoginPage .loginbox span
+body.LoginPage.Logout .loginbox label, 
+body.LoginPage.Logout .loginbox span
+{
+    font-family:Segoe UI;
+    font-size: 14px;
+    text-align: left;
+}
+
+body.LoginPage .content .content 
+{
+    background-image:none;
+    background-color:White;
+    border:1px solid #a4a4a4;
+    margin: 30px 0 40px;
+    width: 230px;
+    height:230px;
+    padding: 20px;
+}
+
+input.logininput
+ {
+    background-color: #FFFFFF !important;
+    background-image: none !important;
+    background-position: left center;
+    background-repeat: no-repeat;
+    border:1px solid #a4a4a4 !important;
+    font-size: 15px;
+    height: 18px;
+    padding: 3px 0 3px 10px;
+    width: 198px !important;
+}
+
+table.standardtable
+{
+    margin-top:0px;
+}
+
+table.standardtable td, table.standardtable th 
+{
+    font-size: 11px;
+    padding: 0px;
+}
+
+div.tblInner div
+{
+    display: block;
+    padding-bottom: 0 !important;
+    text-align: left;
+ 
+}
+
+div.tblInner .userLabel,
+div.tblInner .passwordLabel
+{
+    display: block;
+    margin: 10px 0px 0px 0px;
+    color:Gray;
+}
+
+div.tblInner .userLabel label,
+div.tblInner .passwordLabel label
+{
+    margin:0px;
+}
+
+body.LoginPage .loginbox div#zaloguj a
+{
+    text-decoration:none;
+}
+
+body.LoginPage .loginbox div#zaloguj a * 
+{
+    background-image: url("../Images/Layout/Logon/zaloguj_logon.png");
+    display: block;
+    font: normal 16px/48px Segoe UI;
+    height: 51px;
+    width: 211px;
+    text-indent: 65px;
+    color:Gray;
+    text-decoration:none;
+    margin-top: 20px;
+}
+
+body.LoginPage .loginbox div#zaloguj a *:hover
+{
+    color: white;
+    background-image: url("../Images/Layout/Logon/zaloguj_logon_hover.png");
+}
+
+#capsdiv 
+{
+    background-image: url("../Images/Layout/Logon/capslock.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #3e7c8c;
+    font-size: 9px;
+    height: 17px;
+    margin-top: 3px;
+    padding-left: 37px;
+    padding-top: 3px;
+    position: absolute;
+    font-family: Segoe UI;
+}
+
+div.useragentDiv
+{
+    position: absolute;
+    bottom:3px;
+    width:552px !important;
+}
+
+div.useragentDiv .useragent
+{
+    background-color: #c21313;
+    background-image: none;
+    border: 1px solid #861010;
+    color: white;
+    display: block;
+    margin: 30px 0 40px;
+    padding: 10px;
+    width: 530px !important;
+    font-family: Segoe UI;
+    font-size:13px;
+    font-weight:normal;
+    height:100px;
+    background-image: url("../Images/Layout/Logon/browser_logos.png");
+    background-position: center 56px;
+    background-repeat:no-repeat;
+}
+
+.RemainderDiv 
+{
+    margin-top: 5px;
+    padding-right: 12px;
+    text-align: right;
+}
+
+/*------------------------------------------------------------------LOGIN-end--------------------------------------------------------------------*/
+/*------------------------------------------------------------------STOPKA-----------------------------------------------------------------------*/
+
+body.LoginPage .footer 
+{
+    background: url("../Images/Layout/Logon/logastopka_logon.png") no-repeat scroll right top transparent;
+    border-top: medium none;
+    display: block;
+    height: 33px;
+    width: 100%;
+}
+
+/*------------------------------------------------------------------STOPKA-end-------------------------------------------------------------------*/
+/*------------------------------------------------------------------POPUP------------------------------------------------------------------------*/
+
+.ReminderPopUpPanel,
+.QuestionPanel
+{
+    background:#fff;
+    border: 1px solid #A4A4A4;
+    padding:20px;
+    position:relative;
+}
+
+.ReminderPopUpPanel .ModalLabel,
+.QuestionPanel .ModalLabel
+{
+    color: #61909C;
+    display: inline;
+    float: none;
+    font-family: Segoe UI !important;
+    font-size: 27px !important;
+    font-weight: normal;
+    margin-right: 20px;
+    padding: 0;
+    text-align: left !important;
+}
+
+.ReminderPopUpPanel .phoneNumberContent,
+.ReminderPopUpPanel .emailContent
+{
+    display: block;
+    padding-bottom: 0 !important;
+    text-align: left;
+}
+
+.ReminderPopUpPanel .phoneNumberContent label,
+.ReminderPopUpPanel .emailContent label
+{
+    color: Gray;
+    display: block;
+    margin: 10px 0 0;
+}
+
+.ReminderPopUpPanel .phoneNumberContent input,
+.ReminderPopUpPanel .emailContent input
+{
+    background-color: #FFFFFF !important;
+    background-image: none !important;
+    background-position: left center;
+    background-repeat: no-repeat;
+    border: 1px solid #A4A4A4 !important;
+    font-size: 15px;
+    height: 18px;
+    padding: 3px 0 3px 10px;
+    width: 198px !important;
+}
+
+.ModalButtonsDiv input
+{
+    background-image: url("../Images/Layout/Logon/zaloguj_logon.png");
+    color: Gray;
+    display: block;
+    font: 16px/48px Segoe UI;
+    height: 51px;
+    margin-top: 20px;
+    text-decoration: none;
+    text-indent: 65px;
+    width: 211px !important;
+    border:none !important;
+    cursor:pointer;
+}
+
+.ModalButtonsDiv input:hover
+{
+    color: white;
+    background-image: url("../Images/Layout/Logon/zaloguj_logon_hover.png");
+}
+
+.ModalButtonsDiv input.ButtonCancel
+{
+    background-image: url("../Images/Layout/Logon/zaloguj_cancel.png");
+}
+
+.ModalButtonsDiv input.ButtonCancel:hover
+{
+    background-image: url("../Images/Layout/Logon/zaloguj_cancel_hover.png");
+}
+
+.ModalBackground
+{
+    background:#000;
+    opacity:0.5;
+}
+
+/*------------------------------------------------------------------POPUP-end--------------------------------------------------------------------*/
+/*------------------------------------------------------------------MAINTENANCE------------------------------------------------------------------*/
+
+body.LoginPage .login_content.maintenance .content
+{
+    width: 320px;
+    height:290px;
+}
+
+body.LoginPage .login_content.maintenance .content .mainenanceMessage 
+{
+    margin-top:20px;
+}
+
+body.LoginPage .login_content.maintenance .content .mainenanceMessage span
+{
+    display:block;
+    margin-top:10px;
+}
+
+.gearBox{
+  width: 100%;
+  height: 185px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+#one, 
+#two {
+  text-align: center;
+  position: absolute;
+  left: 65px;
+  top: 30px;
+  border-radius: 100%;
+  background-color: #898989;
+  padding: 0;
+}
+
+#one
+{
+    background: url("../Images/Layout/Logon/gear130.png") no-repeat scroll center center transparent;
+    height: 130px;
+    width: 130px;
+}
+
+#two 
+{
+  background: url("../Images/Layout/Logon/gear100.png") no-repeat scroll center center transparent;
+  position: absolute;
+  left: 187px;
+  top: 21px;
+  height: 100px;
+  width: 100px;
+}
+
+#one {
+   animation: rotate 5s infinite linear;
+}
+
+#one + #two {
+   animation: rotate 5s infinite linear;
+   animation-direction: reverse;
+}
+
+@keyframes rotate {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
